@@ -56,9 +56,7 @@ d3.queue()
 
 function analyze(error, OnlyUSCSV, province) {
   if (error) throw error;
-  // csvDataSets is an array of CSV data
-
-
+ 
 var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
